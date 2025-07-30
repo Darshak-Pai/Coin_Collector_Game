@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #130710;
+    background-color: #141313;
     background-size: cover; /* Make the background image cover the entire page */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-position: center center; /* Center the background image */
@@ -15,9 +15,9 @@ body {
   .click-challenge {
     margin:0 auto;
     padding: 30px; /* Add padding inside the box */
-    background-color: #000000d4; /* Set box background color */
+    background-color: #000000; /* Set box background color */
     border-radius: 10px; /* Round the corners */
-    box-shadow: 0 4px 10px #130710; /* Add subtle shadow for depth */
+    box-shadow: 0 4px 10px #141313; /* Add subtle shadow for depth */
     width: 100%; /* Set the width of the box */
     max-width: 1200px; /* Ensure box doesn't get too wide */
     position: absolute; /* Position the box */
@@ -101,8 +101,8 @@ body {
     margin-top: 50px;
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #272729;
-    color: rgb(255, 255, 255);
+    background-color: #1c1c1e;;
+    color: darkgoldenrod;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -116,7 +116,7 @@ body {
   
   button:hover {
     background-color: #1c1c1e;
-    color: darkgoldenrod;
+    color: rgb(52, 156, 0);
   }
   
   /* Modal styles */
@@ -133,7 +133,7 @@ body {
   }
   
   .modal-content {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(43, 43, 43);
     color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 10px;
